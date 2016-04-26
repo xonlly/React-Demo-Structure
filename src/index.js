@@ -1,8 +1,11 @@
 'use strict'
 
-import {HelloMessage} from './elements/server.jsx'
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+import {ExempleComponent} from './elements/server.jsx'
 
 ReactDOM.render(
-  <HelloMessage />,
-  document.getElementById('interface')
+  <ExempleComponent name="exemple" />,
+  document.getElementById('exemple')
 );
